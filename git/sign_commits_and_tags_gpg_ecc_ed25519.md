@@ -62,7 +62,7 @@ ssb   ed25519/9160E6206D545519 2022-10-26 [S] [expires: 2022-11-23]
 ❯
 ```
 
-## Add primary signing key in git
+## Add a signing key in git
 
 - Copy a key id, and set it as the signing key with `git config --global user.signingkey keyid`, where `keyid` should be substituted with the copied key id. Add a `!` suffix to the `keyid` if using a subkey.
 
